@@ -25,7 +25,7 @@ function Jumbotron() {
           <button className="button">Buy</button>
         </li>
         <li>
-          <a className="link">Learn more</a>
+          <a className="link" onClick={handleLearnMore}>Learn more</a>
         </li>
       </ul>
       <img className="iphone-img" src={HoldingIphone} alt="iPhone" />
